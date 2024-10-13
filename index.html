@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Engenheiro de Software</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#experiencia">Experiência</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Olá, eu sou [Seu Nome]</h1>
+            <p>Engenheiro de Software | Aficionado por Tecnologia | Desenvolvedor Criativo</p>
+            <a href="#projetos" class="cta-button">Veja Meu Trabalho</a>
+        </div>
+    </header>
+
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Sou um engenheiro de software apaixonado por resolver problemas complexos com soluções criativas. Meu amor por tecnologia começou desde jovem, quando eu programava pequenos jogos em Python.</p>
+            <h3>Habilidades</h3>
+            <canvas id="graficoHabilidades"></canvas>
+        </div>
+    </section>
+
+    <section id="projetos">
+        <div class="container">
+            <h2>Meus Projetos</h2>
+            <div class="projetos-grid">
+                <div class="projeto-card">
+                    <h3>Projeto 1</h3>
+                    <p>Descrição breve do projeto. <a href="#" target="_blank">Ver no GitHub</a></p>
+                </div>
+                <div class="projeto-card">
+                    <h3>Projeto 2</h3>
+                    <p>Descrição breve do projeto. <a href="#" target="_blank">Ver no GitHub</a></p>
+                </div>
+                <!-- Adicione mais projetos conforme necessário -->
+            </div>
+        </div>
+    </section>
+
+    <section id="experiencia">
+        <div class="container">
+            <h2>Experiência</h2>
+            <ul class="timeline">
+                <li>
+                    <h3>Empresa A</h3>
+                    <p>Cargo - Período</p>
+                    <p>Descrição de suas responsabilidades e conquistas.</p>
+                </li>
+                <li>
+                    <h3>Empresa B</h3>
+                    <p>Cargo - Período</p>
+                    <p>Descrição de suas responsabilidades e conquistas.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="blog">
+        <div class="container">
+            <h2>Blog</h2>
+            <ul>
+                <li><a href="#">Título do Post 1</a></li>
+                <li><a href="#">Título do Post 2</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <form id="contato-form">
+                <input type="text" placeholder="Seu Nome" required>
+                <input type="email" placeholder="Seu Email" required>
+                <textarea placeholder="Sua Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Seu Nome]. Todos os direitos reservados.</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
