@@ -41,14 +41,25 @@
             <h2>Meus Projetos</h2>
             <div class="projetos-grid">
                 <div class="projeto-card">
+                    <img src="projeto1.jpg" alt="Projeto 1">
                     <h3>Projeto 1</h3>
                     <p>Descrição breve do projeto. <a href="#" target="_blank">Ver no GitHub</a></p>
                 </div>
                 <div class="projeto-card">
+                    <img src="projeto2.jpg" alt="Projeto 2">
                     <h3>Projeto 2</h3>
                     <p>Descrição breve do projeto. <a href="#" target="_blank">Ver no GitHub</a></p>
                 </div>
-                <!-- Adicione mais projetos conforme necessário -->
+                <div class="projeto-card">
+                    <img src="projeto3.jpg" alt="Projeto 3">
+                    <h3>Projeto 3</h3>
+                    <p>Descrição breve do projeto. <a href="#" target="_blank">Ver no GitHub</a></p>
+                </div>
+                <div class="projeto-card">
+                    <img src="projeto4.jpg" alt="Projeto 4">
+                    <h3>Projeto 4</h3>
+                    <p>Descrição breve do projeto. <a href="#" target="_blank">Ver no GitHub</a></p>
+                </div>
             </div>
         </div>
     </section>
@@ -77,6 +88,7 @@
             <ul>
                 <li><a href="#">Título do Post 1</a></li>
                 <li><a href="#">Título do Post 2</a></li>
+                <li><a href="#">Título do Post 3</a></li>
             </ul>
         </div>
     </section>
@@ -84,14 +96,23 @@
     <section id="contato">
         <div class="container">
             <h2>Contato</h2>
+            <p>Se você deseja entrar em contato, preencha o formulário abaixo. Ficarei feliz em ouvir de você!</p>
             <form id="contato-form">
-                <input type="text" placeholder="Seu Nome" required>
-                <input type="email" placeholder="Seu Email" required>
-                <textarea placeholder="Sua Mensagem" required></textarea>
-                <button type="submit">Enviar</button>
+                <div class="form-group">
+                    <input type="text" placeholder="Seu Nome" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Seu Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Sua Mensagem" required></textarea>
+                </div>
+                <button type="submit" class="cta-button">Enviar Mensagem</button>
+                <div class="form-feedback" id="form-feedback"></div>
             </form>
         </div>
     </section>
+    
 
     <footer>
         <p>&copy; 2024 [Seu Nome]. Todos os direitos reservados.</p>
