@@ -1,115 +1,134 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio de Engenheiro de Software</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#sobre">Sobre Mim</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#experiencia">Experiência</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-        <div class="hero">
-            <h1>Olá, eu sou Diogo👋</h1>
-            <p>Software Engineer | JavaScript | Node.js | React | TypeScript | Tailwindcss | MySQL</p>
-            <a href="#projetos" class="cta-button">Veja Meu Trabalho</a>
-        </div>
-    </header>
 
-    <section id="sobre">
-        <div class="container">
-            <h2>Sobre Mim</h2>
-            <p>Sou recém pós-graduado em engenharia de software, com foco em tecnologias modernas e desenvolvimento de soluções de software. Estou pronto para aplicar os conhecimentos adquiridos em áreas como desenvolvimento de sistemas, análise de dados, design de software, inteligência artificial, ou até mesmo gestão de projetos tecnológicos, com grande potencial para contribuir em diversas áreas da engenharia de software.</p> <br>
-            <h3>Habilidades</h3>
-            <canvas id="graficoHabilidades"></canvas>
-        </div>
-    </section>
+    <div>
 
-    <section id="projetos">
-        <div class="container">
-            <h2>Meus Projetos</h2>
-            <div class="projetos-grid">
-                <div class="projeto-card">
-                    <img src="projeto1.jpg" alt="Projeto 1">
-                    <h3>Projeto 1</h3>
-                    <p>Descrição breve do projeto. <a href="#" target="_blank">Ver no GitHub</a></p>
-                </div>
-                <div class="projeto-card">
-                    <img src="projeto2.jpg" alt="Projeto 2">
-                    <h3>Projeto 2</h3>
-                    <p>Descrição breve do projeto. <a href="#" target="_blank">Ver no GitHub</a></p>
-                </div>
-                <div class="projeto-card">
-                    <img src="projeto3.jpg" alt="Projeto 3">
-                    <h3>Projeto 3</h3>
-                    <p>Descrição breve do projeto. <a href="#" target="_blank">Ver no GitHub</a></p>
-                </div>
-                <div class="projeto-card">
-                    <img src="projeto4.jpg" alt="Projeto 4">
-                    <h3>Projeto 4</h3>
-                    <p>Descrição breve do projeto. <a href="#" target="_blank">Ver no GitHub</a></p>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre Mim</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#experiencia">Experiência</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="hero">
+                <h1>Olá, eu sou Diogo <i class="fas fa-hand-paper wave"></i></h1>
+                <p>Software Engineer | JavaScript | Node.js | React | TypeScript | Tailwindcss | MySQL</p>
+                <a href="#projetos" class="cta-button">Veja Meu Trabalho</a>
+            </div>
+        </header>
+
+        <section id="sobre">
+            <div class="container">
+                <h2>Sobre Mim</h2>
+                <p>Sou recém pós-graduado em engenharia de software, com foco em tecnologias modernas e desenvolvimento
+                    de
+                    soluções de software. Estou pronto para aplicar os conhecimentos adquiridos em áreas como
+                    desenvolvimento de sistemas, análise de dados, design de software, inteligência artificial, ou até
+                    mesmo
+                    gestão de projetos tecnológicos, com grande potencial para contribuir em diversas áreas da
+                    engenharia de
+                    software.</p> <br>
+                <h3>Habilidades</h3>
+                <canvas id="graficoHabilidades"></canvas>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <div class="container">
+                <h2>Meus Projetos</h2>
+                <div class="projetos-grid">
+                    <div class="projeto-card">
+                        <img src="projeto1.jpg" alt="Projeto 1">
+                        <h3>Projeto 1</h3>
+                        <p>Descrição breve do projeto. <a href="#" target="_blank">Ver no GitHub</a></p>
+                    </div>
+                    <div class="projeto-card">
+                        <img src="projeto2.jpg" alt="Projeto 2">
+                        <h3>Projeto 2</h3>
+                        <p>Descrição breve do projeto. <a href="#" target="_blank">Ver no GitHub</a></p>
+                    </div>
+                    <div class="projeto-card">
+                        <img src="projeto3.jpg" alt="Projeto 3">
+                        <h3>Projeto 3</h3>
+                        <p>Descrição breve do projeto. <a href="#" target="_blank">Ver no GitHub</a></p>
+                    </div>
+                    <div class="projeto-card">
+                        <img src="projeto4.jpg" alt="Projeto 4">
+                        <h3>Projeto 4</h3>
+                        <p>Descrição breve do projeto. <a href="#" target="_blank">Ver no GitHub</a></p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="experiencia">
-        <div class="container">
-            <h2>Experiência</h2>
-            <ul class="timeline">
-                <li>
-                    <h3>Empresa A</h3>
-                    <p>Cargo - Período</p>
-                    <p>Descrição de suas responsabilidades e conquistas.</p>
-                </li>
-                <li>
-                    <h3>Empresa B</h3>
-                    <p>Cargo - Período</p>
-                    <p>Descrição de suas responsabilidades e conquistas.</p>
-                </li>
-            </ul>
-        </div>
-    </section>
+        <section id="experiencia">
+            <div class="container">
+                <h2>Experiência</h2>
+                <ul class="timeline">
+                    <li>
+                        <h3>Empresa A</h3>
+                        <p>Cargo - Período</p>
+                        <p>Descrição de suas responsabilidades e conquistas.</p>
+                    </li>
+                    <li>
+                        <h3>Empresa B</h3>
+                        <p>Cargo - Período</p>
+                        <p>Descrição de suas responsabilidades e conquistas.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
 
-    <section id="contato">
-        <div class="container">
-            <h2>Contato</h2>
-            <p>Se você deseja entrar em contato, preencha o formulário abaixo. Ficarei feliz em ouvir de você!</p>
-            <form id="contato-form">
-                <div class="form-group">
-                    <input type="text" placeholder="Seu Nome" required>
-                </div>
-                <div class="form-group">
-                    <input type="email" placeholder="Seu Email" required>
-                </div>
-                <div class="form-group">
-                    <textarea placeholder="Sua Mensagem" required></textarea>
-                </div>
-                <button type="submit" class="cta-button">Enviar Mensagem</button>
-                <div class="form-feedback" id="form-feedback"></div>
-            </form>
-        </div>
-    </section>
-    
+        <section id="contato">
+            <div class="container">
+                <h2>Contato</h2>
+                <p>Se você deseja entrar em contato, preencha o formulário abaixo. Ficarei feliz em ouvir de você!</p>
+                <form id="contato-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Seu Nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Seu Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Sua Mensagem" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Enviar Mensagem</button>
+                    <div class="form-feedback" id="form-feedback"></div>
+                </form>
+            </div>
+        </section>
 
-    <footer>
-        <p>&copy; 2024 [Seu Nome]. Todos os direitos reservados.</p>
-        <div class="social-links">
-            <a href="#"><i class="fab fa-github"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
+
+        <div id="footer">
+            <footer>
+                <p>&copy; 2024 𝒟𝒾ℴℊℴ 𝒜𝓉𝒶𝒾𝒹ℯ 𝒮𝒾𝓁𝓋𝒶. Todos os direitos reservados.</p>
+                <div class="social-links">
+                    <a href="https://www.github.com/diatsilva007"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/diatsilva/"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </footer>
         </div>
-    </footer>
+
+    </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>

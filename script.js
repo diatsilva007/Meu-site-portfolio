@@ -5,11 +5,11 @@ const habilidades = {
     // Estou aprendendo Html/CSS, Tailwindcss, JavaScript, TypeScript, React, NodeJS, C#, Python, Saas, Bootstrap, ExpressJS, MongoDB, MySQL, PostgreSQL, Azure, AWS, Docker, Kubernetes, Git/GitHub Figma, Google Cloud. Linux e Windows. 
     labels: ['HTML/CSS', 'Tailwindcss', 'JavaScript', 'TypeScript', 'React', 'NodeJS', 'C#', 'Python', 'Saas',
         'Bootstrap', 'ExpressJS', 'MongoDB', 'MySQL', 'PostgreSQL', 'Azure', 'AWS', 'Docker', 'Kubernetes',
-        'Git/GitHub', 'Figma', 'Google Cloud', 'Linux/Windows'],
+        'Git/GitHub', 'Figma', 'Linux/Windows'],
 
     datasets: [{
         label: 'Nível de Habilidade',
-        data: [90, 75, 85, 75, 80, ],
+        data: [90, 75, 85, 75, 80, 40, 45, 40, 35, 65, 30, 40, 68, 38, 55, 53, 45, 45, 75, 40, 88],
         backgroundColor: 'rgba(0, 123, 255, 0.6)',
         borderColor: 'rgba(0, 123, 255, 1)',
         borderWidth: 1
