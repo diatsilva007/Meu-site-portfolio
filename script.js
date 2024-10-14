@@ -1,10 +1,15 @@
 // Gráfico de Habilidades
 const ctx = document.getElementById('graficoHabilidades').getContext('2d');
 const habilidades = {
-    labels: ['JavaScript', 'Python', 'Java', 'C#', 'HTML/CSS'],
+
+    // Estou aprendendo Html/CSS, Tailwindcss, JavaScript, TypeScript, React, NodeJS, C#, Python, Saas, Bootstrap, ExpressJS, MongoDB, MySQL, PostgreSQL, Azure, AWS, Docker, Kubernetes, Git/GitHub Figma, Google Cloud. Linux e Windows. 
+    labels: ['HTML/CSS', 'Tailwindcss', 'JavaScript', 'TypeScript', 'React', 'NodeJS', 'C#', 'Python', 'Saas',
+        'Bootstrap', 'ExpressJS', 'MongoDB', 'MySQL', 'PostgreSQL', 'Azure', 'AWS', 'Docker', 'Kubernetes',
+        'Git/GitHub', 'Figma', 'Google Cloud', 'Linux/Windows'],
+
     datasets: [{
         label: 'Nível de Habilidade',
-        data: [85, 90, 75, 70, 95],
+        data: [90, 75, 85, 75, 80, ],
         backgroundColor: 'rgba(0, 123, 255, 0.6)',
         borderColor: 'rgba(0, 123, 255, 1)',
         borderWidth: 1
@@ -37,7 +42,7 @@ const config = {
 const grafico = new Chart(ctx, config);
 
 // Envio do formulário
-document.getElementById('contato-form').addEventListener('submit', function(e) {
+document.getElementById('contato-form').addEventListener('submit', function (e) {
     e.preventDefault();
 
     const feedback = document.getElementById('form-feedback');
