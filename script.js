@@ -62,3 +62,14 @@ document.getElementById('contato-form').addEventListener('submit', function (e) 
     this.reset(); // Limpa o formulário após o envio
 });
 
+
+// Menu hamburguer
+const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('.nav-links');
+
+hamburger.addEventListener('click', () => {
+  navLinks.classList.toggle('active');
+  hamburger.classList.toggle('toggle');
+});
+
+
