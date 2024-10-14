@@ -38,7 +38,6 @@ nav a {
 nav a:hover {
     color: #007bff;
 }
-  
 
 .hero {
     margin-top: 50px;
@@ -136,6 +135,7 @@ h2 {
 .timeline {
     list-style: none;
     padding: 0;
+    display: inline-block;
 }
 
 .timeline li {
@@ -143,6 +143,7 @@ h2 {
     margin: 10px 0;
     padding: 15px;
     border-radius: 5px;
+    
 }
 
 /* Estilos da Seção de Contato */
