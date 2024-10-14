@@ -1,5 +1,3 @@
-# Bem vindo ao meu protótipo de site de portfolio
+# 🧑‍💻 software engineer portfolio website 🖥️
 
-## Será adicionado novas features, e farei deploy do mesmo assim que possível.
-
-### Aguardem... ⏳
+## Deploy: https://meu-site-portfolio-seven.vercel.app/
